@@ -1,0 +1,9 @@
+@module webcamera
+@module_description WebCamera Module
+@author Pavel Tsakalidis [ www.contextis.com ]
+
+@feature webcamera
+@description Take photos with the camera
+@required url, Callback URL
+@option interval, 10000, Screenshot Callback Interval (ms)
+@option param, data, HTTP Parameter Name For Callback Data

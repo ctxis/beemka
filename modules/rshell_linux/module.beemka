@@ -1,0 +1,8 @@
+@module rshell_linux
+@module_description Linux Reverse Shell
+@author Pavel Tsakalidis [ www.contextis.com ]
+
+@feature rshell
+@description Linux Reverse Shell
+@option host, , Listening Host
+@option port, 4444, Listening Port

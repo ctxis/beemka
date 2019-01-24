@@ -1,0 +1,10 @@
+@module keylogger
+@module_description Keylogger Module
+@author Pavel Tsakalidis [ www.contextis.com ]
+
+@feature keylogger
+@description Keylogger.
+@required url, Callback URL
+@option interval, 10000, Keylogger Callback Interval (ms)
+@option param, data, HTTP Parameter Name For Callback Data
+@option method, POST, HTTP Callback Method (POST/GET)

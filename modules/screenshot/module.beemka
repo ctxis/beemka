@@ -1,0 +1,10 @@
+@module screenshot
+@module_description Screenshot Module
+@author Pavel Tsakalidis [ www.contextis.com ]
+
+@feature screenshot
+@description Take screenshots of the app or desktop.
+@required url, Callback URL
+@option interval, 10000, Screenshot Callback Interval (ms)
+@option param, data, HTTP Parameter Name For Callback Data
+@option apponly, false, Capture only the application
