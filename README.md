@@ -2,6 +2,24 @@
 
 ## Electron Exploitation Toolkit
 
+### Demo Videos (YouTube)
+
+#### Bitwarden Password Egress
+
+[![Bitwarden Password Egress](http://img.youtube.com/vi/qDTKYNGsyuI/0.jpg)](https://www.youtube.com/watch?v=qDTKYNGsyuI)
+
+### Skype Reverse Shell (Linux)
+
+[![Skype Reverse Shell](http://img.youtube.com/vi/FLA93oG5gZE/0.jpg)](https://www.youtube.com/watch?v=FLA93oG5gZE)
+
+### Slack Desktop Screenshots
+
+[![Slack Desktop Screenshots](http://img.youtube.com/vi/H-phownVcN4/0.jpg)](https://www.youtube.com/watch?v=H-phownVcN4)
+
+### VS Code WebCamera
+
+[![Slack Desktop Screenshots](http://img.youtube.com/vi/xvWXlUswAfo/0.jpg)](https://www.youtube.com/watch?v=xvWXlUswAfo)
+
 ### Requirements
 
 - Python 3.5+
