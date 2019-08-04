@@ -1,6 +1,7 @@
 <?php
-// Change this path.
-$storage = '/tmp/beemka';
+// Change these settings if you need to.
+$storage = '/tmp/beemka-image';
+$paramName = 'data';
 
 // Don't change anything below this line.
 $storage = rtrim($storage, "\\/") . DIRECTORY_SEPARATOR;
@@ -42,13 +43,13 @@ class ImageStorage {
 
     protected function getLastImage()
     {
-        $allFiles = $this->getCurrentFiles($this->storage);
+        $allFiles = $this->getCurrentFiles();
         return (count($allFiles) == 0) ? '' : $allFiles[0] . '.png';
     }
 
     protected function getNextImage()
     {
-        $allFiles = $this->getCurrentFiles($this->storage);
+        $allFiles = $this->getCurrentFiles();
         $fileName = (count($allFiles) == 0) ? 1 : ++$allFiles[0];
         return $fileName . '.png';
     }
@@ -84,7 +85,7 @@ if (isset($_GET['image'])) {
     die();
 }
 
-$data = isset($_REQUEST['data']) ? trim($_REQUEST['data']) : '';
+$data = isset($_REQUEST[$paramName]) ? trim($_REQUEST[$paramName]) : '';
 if (!empty($data)) {
     $imageStorage->saveImage($data);
     die();

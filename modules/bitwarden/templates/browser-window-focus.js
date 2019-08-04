@@ -1,0 +1,1 @@
+%BROWSER_WINDOW%.webContents.executeJavaScript("%PAYLOAD%")

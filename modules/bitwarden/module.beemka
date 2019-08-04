@@ -1,0 +1,9 @@
+@module bitwarden
+@module_description Bitwarden Password Extraction
+@author Pavel Tsakalidis [ www.contextis.com ]
+
+@feature bitwarden
+@description Bitwarden Password Extraction
+@required url, Callback URL
+@option param, data, HTTP Parameter Name For Callback Data
+@option method, POST, HTTP Callback Method (POST/GET)

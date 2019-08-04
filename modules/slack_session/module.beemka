@@ -1,0 +1,9 @@
+@module slack_session
+@module_description Slack Session
+@author Pavel Tsakalidis [ www.contextis.com ]
+
+@feature slack
+@description Slack Session.
+@required url, Callback URL
+@option url_param, url, HTTP Parameter Name For Callback URL
+@option data_param, data, HTTP Parameter Name For Callback Data
