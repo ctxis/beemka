@@ -56,12 +56,16 @@ class BaseUtils:
             content = content_file.read()
         return content
 
-    def generate_js_variable(self, data):
+    def generate_js_variable(self, data, add_semicolon=True):
         lines = []
+
+        line_terminator = ''
+        if add_semicolon is True:
+            line_terminator = ';'
 
         for feature_name, feature in data.items():
             for name, value in feature.items():
-                lines.append("let beemka_" + feature_name + "_" + name + " = \"" + value.replace('"', '\\"') + "\";")
+                lines.append("let beemka_" + feature_name + "_" + name + " = \"" + value.replace('"', '\\"') + "\"" + line_terminator)
 
         return lines
 

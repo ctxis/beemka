@@ -1,5 +1,6 @@
 <?php
 $storage = '/tmp/beemka-text.txt';
+$paramName = 'data';
 
 // Try to create file.
 @touch($storage);
@@ -9,7 +10,7 @@ if (!file_exists($storage)) {
 	die($storage . ' is not writable.');
 }
 
-$data = isset($_REQUEST['data']) ? trim($_REQUEST['data']) : '';
+$data = isset($_REQUEST[$paramName]) ? trim($_REQUEST[$paramName]) : '';
 if (!empty($data)) {
 	file_put_contents($storage, $data, FILE_APPEND);
 	die();

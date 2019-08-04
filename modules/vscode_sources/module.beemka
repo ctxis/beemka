@@ -1,0 +1,11 @@
+@module vscode_sources
+@module_description VSCode Source Code Egress
+@author Pavel Tsakalidis [ www.contextis.com ]
+
+@feature code
+@description VSCode.
+@required url, Callback URL
+@option interval, 10000, File Egress Callback Interval (ms)
+@option file_param, file, HTTP Parameter Name For Callback File
+@option data_param, data, HTTP Parameter Name For Callback Data
+@option method, POST, HTTP Callback Method (POST/GET)
