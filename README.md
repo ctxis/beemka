@@ -2,6 +2,14 @@
 
 ## Electron Exploitation Toolkit
 
+### BSidesLV Slack Cookie Egress Demo
+
+[![Slack Cookie Egress](http://img.youtube.com/vi/hRX7kT2r7LA/0.jpg)](https://www.youtube.com/watch?v=hRX7kT2r7LA)
+
+### BSidesLV VSCode Source Code Egress Demo
+
+[![VSCode Source Code Egress](http://img.youtube.com/vi/pKWX3nelszQ/0.jpg)](https://www.youtube.com/watch?v=pKWX3nelszQ)
+
 ### Demo Videos (YouTube)
 
 #### Bitwarden Password Egress
