@@ -44,7 +44,7 @@ class worker:
             return False
 
         try:
-            webcontents_check = file_contents_lines_search.index("if (!isWindowOrWebView(webContents)) return", function_definition)
+            webcontents_check = file_contents_lines_search.index("hookWebContentsEvents(webContents);", function_definition)
         except:
             return False
 
